@@ -220,3 +220,62 @@ nav {
   min-height: 550px;
   border-radius: 16px;
 }
+
+/* My Current target style */
+
+.My_Current_Target {
+  margin: 115px 150px;
+  text-align: center;
+}
+
+.My_Current_Target_heading {
+  margin-bottom: 80px;
+}
+
+.My_Current_Target_boxes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.My_Current_Target_boxes div {
+  width: 364px;
+  height: 299px;
+  text-align: left;
+  padding: 25px 25px 0 25px;
+  border-radius: 16px;
+}
+
+.My_Current_Target_box1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.My_Current_Target_box2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.My_Current_Target_box3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.My_Current_Target_boxes_heading {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.My_Current_Target_boxes_description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.My_Current_Target_boxes_LearnMore{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-decoration-line: underline;
+}
