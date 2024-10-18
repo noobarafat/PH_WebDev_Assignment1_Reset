@@ -131,6 +131,10 @@ nav {
 .why_web-development_header {
   text-align: center;
   margin-bottom: 50px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
 }
 
 .why_web-development_box1 {
@@ -192,4 +196,27 @@ nav {
   font-weight: 400;
   line-height: 26px;
   opacity: 0.7;
+}
+
+/* My .My_Inspiration style */
+.My_Inspiration {
+  margin: 95px 150px;
+}
+
+.My_Inspiration_heading {
+  text-align: center;
+}
+
+.My_Inspiration_blank {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  margin: 50px 0;
+}
+
+.video {
+  min-width: 1076px;
+  min-height: 550px;
+  border-radius: 16px;
 }
