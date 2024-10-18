@@ -331,3 +331,63 @@ nav {
   border-radius: 16px;
   background: rgb(255, 255, 255);
 }
+
+/* I need Support Style */
+.I_need_Support {
+  border-radius: 16px;
+  background: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+  min-width: 1140px;
+  min-height: 313px;
+  margin: 115px 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.I_need_Support_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.I_need_Support_textpart {
+  text-align: center;
+  color: white;
+  margin-top: 65px;
+}
+
+.I_need_Support_header {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.I_need_Support_description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  text-align: center; /* Centers the text inside the container */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.I_need_Support_submission input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 14px 70px 14px 20px;
+}
+
+.I_need_Support_submission button {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: black;
+  padding: 14px 20px 14px 20px;
+  border: 1x solid black;
+}
