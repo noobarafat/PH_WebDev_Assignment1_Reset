@@ -272,10 +272,62 @@ nav {
   line-height: 26px;
 }
 
-.My_Current_Target_boxes_LearnMore{
+.My_Current_Target_boxes_LearnMore {
   color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-text-decoration-line: underline;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+
+/* My Next Target Style */
+.My_next-target {
+  margin: 115px 150px;
+  text-align: center;
+}
+
+.My_next-target_boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.My_next-target_box1 {
+  display: flex;
+  gap: 25px;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.My_next-target_box2 {
+  display: flex;
+  gap: 25px;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.My_next-target_box3 {
+  display: flex;
+  gap: 25px;
+  text-align: left;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
 }
