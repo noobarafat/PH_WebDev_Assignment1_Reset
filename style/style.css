@@ -7,6 +7,10 @@
   font-style: normal;
 }
 
+* {
+  font-family: Azeret Mono;
+}
+
 /* Nav Style */
 
 nav {
@@ -27,7 +31,7 @@ nav {
   border-radius: 8px;
   opacity: 0.8;
   margin-right: 150px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* Awlad.H */
@@ -42,7 +46,7 @@ nav {
   line-height: 33px;
   letter-spacing: 0%;
   margin-left: 150px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* banner style */
@@ -57,5 +61,57 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+  margin-top: px;
+  margin-bottom: 100px;
+}
+
+.banner_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_img {
+  min-width: 142.1px;
+  min-height: 86.02px;
+  padding: 25px 0 20px 0;
+}
+
+.banner_heading {
+  min-width: 998px;
+  min-height: 136px;
+  gap: 24;
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.banner_description {
+  max-width: 852px;
+  max-height: 52px;
+  gap: 24;
+  margin: 24px 0px 0px 0;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.banner_button{
+max-width: 244px;
+max-height: 65px;
+gap: 10;
+padding: 21px 24px 21px 24px;
+margin: 32px 0px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: white;
 }
