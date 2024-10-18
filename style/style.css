@@ -178,3 +178,18 @@ nav {
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
 }
+
+.why_web-development_boxesHeading {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.why_web-development_boxesDescription {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
